@@ -10,14 +10,61 @@ body {
     padding: 0;
 }
 
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2em 4em;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.title-color {
+    color: hsl(277, 64%, 61%);
+}
+
+.subtext {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: -1em;
+    line-height: 2em;
+}
+
+.stats-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stats {
+    font-family: "Lexend Deca", sans-serif;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6)
+}
+
+.stats-values {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.stats:not(:first-child) {
+    margin-left: -5em;
+}
+
 .image-content {
-    
+    margin: 0 0 0 6em;
+    border-radius: 0 .5em .5em 0;
 }
 
 .main-content {
     color: white;
     background-color: hsl(244, 38%, 16%);
     display: flex;
-    margin: 7em 5em;
+    margin: 10em 12em;
+    justify-content: space-between;
+    border-radius: .5em;
 }
 
