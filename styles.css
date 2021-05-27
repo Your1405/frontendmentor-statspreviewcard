@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.main-section {
+    margin: 0;
+    padding: 0;
+}
+
+.image-content {
+    
+}
+
+.main-content {
+    color: white;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    margin: 7em 5em;
+}
+
