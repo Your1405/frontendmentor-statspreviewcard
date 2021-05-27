@@ -55,8 +55,8 @@ body {
 }
 
 .image-content {
-    margin: 0 0 0 6em;
     border-radius: 0 .5em .5em 0;
+    filter: opacity(50%);
 }
 
 .main-content {
@@ -68,3 +68,10 @@ body {
     border-radius: .5em;
 }
 
+.image-container {
+    margin: 0 0 0 6em;
+    padding: 0;
+    height: 360px;
+    background-color: hsl(277, 72%, 62%);
+    border-radius: 0 .5em .5em 0;
+}
